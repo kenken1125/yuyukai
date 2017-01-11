@@ -1,0 +1,65 @@
+@charset "UTF-8";
+/*===============================================
+
+ *  トップページ
+
+===============================================*/
+#keyVisual {
+  border-bottom-style: solid;
+  border-bottom-width: 5px;
+  margin-right: auto !important;
+  margin-left: auto !important;
+  text-align: center; }
+  #keyVisual .fotorama__nav-wrap {
+    display: none; }
+
+/*  あなたのお悩みはなんですか
+-----------------------------------------------*/
+.trouble_menu li {
+  margin-bottom: 16px;
+  width: 48%; }
+  .trouble_menu li:nth-child(1), .trouble_menu li:nth-child(8) {
+    background-color: #ba5458; }
+  .trouble_menu li:nth-child(2), .trouble_menu li:nth-child(7) {
+    background-color: #79a44a; }
+  .trouble_menu li:nth-child(3), .trouble_menu li:nth-child(6) {
+    background-color: #c966b0; }
+  .trouble_menu li:nth-child(4), .trouble_menu li:nth-child(5) {
+    background-color: #2973a4; }
+  .trouble_menu li a {
+    background: url(../img/_icon/icon006.png) 90% 50% no-repeat;
+    background-size: 20px;
+    box-sizing: border-box;
+    padding: 24px 24px 24px 16px;
+    display: block;
+    width: 100%; }
+
+/*  予約　店舗案内＆アクセス
+-----------------------------------------------*/
+.hp_information {
+  padding: 16px; }
+  .hp_information .reservation {
+    text-align: center; }
+  .hp_information .access {
+    text-align: center; }
+    .hp_information .access .region_menu:not(:last-child) {
+      margin-bottom: 16px; }
+
+@media screen and (max-width: 414px) {
+  .hp_information .access {
+    margin-right: 0;
+    margin-left: 0; } }
+/*  求人情報
+-----------------------------------------------*/
+.Joboffer dl {
+  border-bottom-style: dashed;
+  border-bottom-width: 1px;
+  padding: 16px 8px; }
+  .Joboffer dl dt {
+    font-weight: bold;
+    min-width: 70px; }
+    .Joboffer dl dt:after {
+      content: "："; }
+  .Joboffer dl dd {
+    flex: 1;
+    padding-left: 1em; }
